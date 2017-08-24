@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FF347EC79B087C42EA0DFCB /* Pods_AlvinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E77CDE7E9FE3B4961F07D90 /* Pods_AlvinUITests.framework */; };
+		65A2BAF682D8DBCA68BE9123 /* Pods_AlvinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD9E7D2F1850FB21B504152 /* Pods_AlvinTests.framework */; };
+		7FA36E6F291EF0D37878B00B /* Pods_Alvin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC9E307E60646FD07B7D53C /* Pods_Alvin.framework */; };
 		DE46466F1F4DFBE200AAD9E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE46466E1F4DFBE200AAD9E7 /* AppDelegate.swift */; };
 		DE4646711F4DFBE200AAD9E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4646701F4DFBE200AAD9E7 /* ViewController.swift */; };
 		DE4646741F4DFBE200AAD9E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4646721F4DFBE200AAD9E7 /* Main.storyboard */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10A6C4D08D4DF53F1D99DF1F /* Pods-AlvinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlvinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlvinUITests/Pods-AlvinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E77CDE7E9FE3B4961F07D90 /* Pods_AlvinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlvinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD9E7D2F1850FB21B504152 /* Pods_AlvinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlvinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91840697EF22465A1AEDEC94 /* Pods-AlvinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlvinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlvinTests/Pods-AlvinTests.release.xcconfig"; sourceTree = "<group>"; };
+		A91198943F0AEE5E5CEAC7F5 /* Pods-AlvinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlvinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlvinTests/Pods-AlvinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7DEFC01EB6118FAF84BC5AA /* Pods-Alvin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alvin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alvin/Pods-Alvin.release.xcconfig"; sourceTree = "<group>"; };
 		DE46466B1F4DFBE200AAD9E7 /* Alvin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alvin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE46466E1F4DFBE200AAD9E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4646701F4DFBE200AAD9E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		DE46468A1F4DFBE200AAD9E7 /* AlvinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlvinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE46468E1F4DFBE200AAD9E7 /* AlvinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlvinUITests.swift; sourceTree = "<group>"; };
 		DE4646901F4DFBE200AAD9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8138D96BD280D6189185E61 /* Pods-Alvin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alvin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alvin/Pods-Alvin.debug.xcconfig"; sourceTree = "<group>"; };
+		EC90F4D080F68546B40DB7B1 /* Pods-AlvinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlvinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlvinUITests/Pods-AlvinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC9E307E60646FD07B7D53C /* Pods_Alvin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alvin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA36E6F291EF0D37878B00B /* Pods_Alvin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A2BAF682D8DBCA68BE9123 /* Pods_AlvinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF347EC79B087C42EA0DFCB /* Pods_AlvinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CB2C7896AE393A1295F9A47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8138D96BD280D6189185E61 /* Pods-Alvin.debug.xcconfig */,
+				C7DEFC01EB6118FAF84BC5AA /* Pods-Alvin.release.xcconfig */,
+				A91198943F0AEE5E5CEAC7F5 /* Pods-AlvinTests.debug.xcconfig */,
+				91840697EF22465A1AEDEC94 /* Pods-AlvinTests.release.xcconfig */,
+				EC90F4D080F68546B40DB7B1 /* Pods-AlvinUITests.debug.xcconfig */,
+				10A6C4D08D4DF53F1D99DF1F /* Pods-AlvinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B96E965177A54C429DEA0ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEC9E307E60646FD07B7D53C /* Pods_Alvin.framework */,
+				7AD9E7D2F1850FB21B504152 /* Pods_AlvinTests.framework */,
+				5E77CDE7E9FE3B4961F07D90 /* Pods_AlvinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE4646621F4DFBE100AAD9E7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				DE4646821F4DFBE200AAD9E7 /* AlvinTests */,
 				DE46468D1F4DFBE200AAD9E7 /* AlvinUITests */,
 				DE46466C1F4DFBE200AAD9E7 /* Products */,
+				3CB2C7896AE393A1295F9A47 /* Pods */,
+				B96E965177A54C429DEA0ED8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE4646931F4DFBE200AAD9E7 /* Build configuration list for PBXNativeTarget "Alvin" */;
 			buildPhases = (
+				501A2BC2A511BDAD4033E0B7 /* [CP] Check Pods Manifest.lock */,
 				DE4646671F4DFBE100AAD9E7 /* Sources */,
 				DE4646681F4DFBE100AAD9E7 /* Frameworks */,
 				DE4646691F4DFBE100AAD9E7 /* Resources */,
+				18B3083E8589FDB781C1F933 /* [CP] Embed Pods Frameworks */,
+				57BC2CB4B1F038DA6035AB10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE4646961F4DFBE200AAD9E7 /* Build configuration list for PBXNativeTarget "AlvinTests" */;
 			buildPhases = (
+				2E7428B14EFBC3EDD87F5119 /* [CP] Check Pods Manifest.lock */,
 				DE46467B1F4DFBE200AAD9E7 /* Sources */,
 				DE46467C1F4DFBE200AAD9E7 /* Frameworks */,
 				DE46467D1F4DFBE200AAD9E7 /* Resources */,
+				CADFA1EBF565F5FD97D80222 /* [CP] Embed Pods Frameworks */,
+				61EE88184368650AED0A73DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE4646991F4DFBE200AAD9E7 /* Build configuration list for PBXNativeTarget "AlvinUITests" */;
 			buildPhases = (
+				7EE3EB7204BF6EAC434ADFEE /* [CP] Check Pods Manifest.lock */,
 				DE4646861F4DFBE200AAD9E7 /* Sources */,
 				DE4646871F4DFBE200AAD9E7 /* Frameworks */,
 				DE4646881F4DFBE200AAD9E7 /* Resources */,
+				33309D8884050AC7DB56BF41 /* [CP] Embed Pods Frameworks */,
+				539F871ED0215CC69F711370 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B3083E8589FDB781C1F933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alvin/Pods-Alvin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E7428B14EFBC3EDD87F5119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33309D8884050AC7DB56BF41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlvinUITests/Pods-AlvinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		501A2BC2A511BDAD4033E0B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		539F871ED0215CC69F711370 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlvinUITests/Pods-AlvinUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57BC2CB4B1F038DA6035AB10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alvin/Pods-Alvin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61EE88184368650AED0A73DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlvinTests/Pods-AlvinTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE3EB7204BF6EAC434ADFEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CADFA1EBF565F5FD97D80222 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlvinTests/Pods-AlvinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE4646671F4DFBE100AAD9E7 /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		DE4646941F4DFBE200AAD9E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8138D96BD280D6189185E61 /* Pods-Alvin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BK7E5259E9;
@@ -426,6 +614,7 @@
 		};
 		DE4646951F4DFBE200AAD9E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7DEFC01EB6118FAF84BC5AA /* Pods-Alvin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BK7E5259E9;
@@ -439,6 +628,7 @@
 		};
 		DE4646971F4DFBE200AAD9E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91198943F0AEE5E5CEAC7F5 /* Pods-AlvinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		DE4646981F4DFBE200AAD9E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91840697EF22465A1AEDEC94 /* Pods-AlvinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		DE46469A1F4DFBE200AAD9E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC90F4D080F68546B40DB7B1 /* Pods-AlvinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BK7E5259E9;
@@ -483,6 +675,7 @@
 		};
 		DE46469B1F4DFBE200AAD9E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A6C4D08D4DF53F1D99DF1F /* Pods-AlvinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BK7E5259E9;
