@@ -56,8 +56,8 @@
 		DE46468A1F4DFBE200AAD9E7 /* AlvinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlvinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE46468E1F4DFBE200AAD9E7 /* AlvinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlvinUITests.swift; sourceTree = "<group>"; };
 		DE4646901F4DFBE200AAD9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEFE2AA71F4F15BB00F8EB3D /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
-		DEFE2AAA1F4F161700F8EB3D /* LICENCE.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENCE.MD; sourceTree = "<group>"; };
+		DEFE2AA71F4F15BB00F8EB3D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DEFE2AAA1F4F161700F8EB3D /* LICENCE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENCE.md; sourceTree = "<group>"; };
 		E8138D96BD280D6189185E61 /* Pods-Alvin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alvin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alvin/Pods-Alvin.debug.xcconfig"; sourceTree = "<group>"; };
 		EC90F4D080F68546B40DB7B1 /* Pods-AlvinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlvinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlvinUITests/Pods-AlvinUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC9E307E60646FD07B7D53C /* Pods_Alvin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alvin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,8 +117,8 @@
 		DE4646621F4DFBE100AAD9E7 = {
 			isa = PBXGroup;
 			children = (
-				DEFE2AAA1F4F161700F8EB3D /* LICENCE.MD */,
-				DEFE2AA71F4F15BB00F8EB3D /* README.MD */,
+				DEFE2AAA1F4F161700F8EB3D /* LICENCE.md */,
+				DEFE2AA71F4F15BB00F8EB3D /* README.md */,
 				DE46466D1F4DFBE200AAD9E7 /* Alvin */,
 				DE4646821F4DFBE200AAD9E7 /* AlvinTests */,
 				DE46468D1F4DFBE200AAD9E7 /* AlvinUITests */,
