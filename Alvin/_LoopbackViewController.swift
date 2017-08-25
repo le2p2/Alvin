@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 import SCSiriWaveformView
 
-class LoopbackViewController: UIViewController, AVAudioPlayerDelegate
+class _LoopbackViewController: UIViewController, AVAudioPlayerDelegate
 {
     let documentDirectory: URL = FileManager.shared.documentsDirectory!
     let recordingSettings = [
