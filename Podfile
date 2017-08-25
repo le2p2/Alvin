@@ -6,7 +6,7 @@ target 'Alvin' do
   use_frameworks!
 
   # Pods for Alvin
-  pod 'AudioKit'
+  pod 'SCSiriWaveformView'
 
   target 'AlvinTests' do
     inherit! :search_paths
