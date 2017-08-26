@@ -27,18 +27,18 @@ class FileManager
             try self.defaultFileManager?.removeItem(at: fileUrl!)
         }
         catch let error {
-            print(error.localizedDescription)
+            log.error(error.localizedDescription)
         }
     }
     
     public func uploadFile(name: String) {
-        print("uploadFile \(name)")
+        log.info("uploadFile \(name)")
     }
     
     public func listFiles() -> Array<FileManagerTableViewCellModel> {
         do {
             let rawFiles = try Foundation.FileManager.default.contentsOfDirectory(at: self.documentsDirectory!, includingPropertiesForKeys: nil, options: [])
-            let filteredFiles = rawFiles.filter { $0.pathExtension == "caf" }
+            let filteredFiles = rawFiles.filter { $0.pathExtension == Loopback.shared.fileExtension }
             var files: Array<FileManagerTableViewCellModel> = []
             
             for file in filteredFiles {
@@ -48,7 +48,7 @@ class FileManager
             return files
         }
         catch let error as NSError {
-            print(error.localizedDescription)
+            log.error(error.localizedDescription)
             
             return []
         }

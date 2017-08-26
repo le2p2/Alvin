@@ -7,100 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01627261E92CE9391B3AAC5FCAEB8DC1 /* SCSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2954C3343D17319D5BFE06D5F2CC0D73 /* SCSiriWaveformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A62287063CC908211D3D1DDD084ECA7 /* Pods-Alvin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F530B65C4A6F155D3867B8F476E53AD /* Pods-Alvin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC474B59CF8161C33B9FB6555C4C2D5 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7081C489B9730C4F4C1703612F2F347 /* AES256CBC.swift */; };
+		1192B13634F45B4E6D9C6D6C776539A9 /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE286EAAA0F462E2653552D242BC39B /* GoogleCloudDestination.swift */; };
 		1722340F064C86281424E96DA31A279F /* Pods-AlvinUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F3690F19A5BC3976464BBD7D63F9D9 /* Pods-AlvinUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20CA94DEDAD17F4108A8C7386424F5AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54994EADC0C551842AB2B866820E3E63 /* CoreGraphics.framework */; };
-		263A47C63256C67B86DC9D751C5E0F41 /* SCSiriWaveformView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E60C62E242F384D9D17B4551714053 /* SCSiriWaveformView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3966909856D8224A94D4D1EEA802BE15 /* SCSiriWaveformView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 339FB5CE679A19A35B4102DA801AFFE5 /* SCSiriWaveformView-dummy.m */; };
-		3D1EBC37767AA313C86D41EA267C433F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1772FBE9E80A6BCD5B6CCDC7C8AECF8 /* Foundation.framework */; };
+		25C45B120D75B81CD93C63EFB9B795DD /* SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 548ED26F896839257962D851FB4D72A8 /* SCSiriWaveformView.m */; };
+		2771D462970BC47252A1B0D90BF29FBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54994EADC0C551842AB2B866820E3E63 /* CoreGraphics.framework */; };
+		27FDA5D40286D55A36639C3D2387B5D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1772FBE9E80A6BCD5B6CCDC7C8AECF8 /* Foundation.framework */; };
+		43227564DCF41F34FD9D4A77A3278181 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9D0AF35B626926E9EEFB6F60318DBE /* QuartzCore.framework */; };
 		58B9FDF4DF9C8A791388B34ADEEFF5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1772FBE9E80A6BCD5B6CCDC7C8AECF8 /* Foundation.framework */; };
-		604FB6E7B383B7C033257A8C83F15C43 /* Pods-Alvin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F8376CE84A09CCAB46FBDE8055B545 /* Pods-Alvin-dummy.m */; };
+		5FBED47F1AF3F7137E6542854FDC14C5 /* SCSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DD75B3FE0D96EB84F9F0FC1B49E656 /* SCSiriWaveformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6127A44380790BB52BE569858AA4AB4E /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A1D7D3B00AD44BC96C5D32C91DAA03 /* SwiftyBeaver.swift */; };
 		6607A4B9784AC080818B0E7BF0BBC4DC /* Pods-AlvinTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B172EDEC8DB62B75E7F48AEF1EF725 /* Pods-AlvinTests-dummy.m */; };
+		6BF25E25ACFE2F3C4548EA2053A364D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6204F8C8B17AB73D7B4E9B3AAB45F43B /* UIKit.framework */; };
+		6D40125607B783FC7C8CD8EDE7FAF2A2 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5FE11E5C32DCB3073BDF26CC05F18 /* BaseDestination.swift */; };
+		735F83D409FF7EDB75E7A29D7C43F621 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EC8BC868D1C3CA71056359C78A0B62 /* AVFoundation.framework */; };
 		76324E86419AC4F5F71CF6C0141B7742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1772FBE9E80A6BCD5B6CCDC7C8AECF8 /* Foundation.framework */; };
-		79173F155B434FB0C85397CA2C9A8391 /* SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB287F5A8216EB85F459F67D8C6EFBEA /* SCSiriWaveformView.m */; };
-		903BD42B0E033FE8776056F9A9F95310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1772FBE9E80A6BCD5B6CCDC7C8AECF8 /* Foundation.framework */; };
-		B2CA69D88A3A595F5B76A721EF23B495 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9D0AF35B626926E9EEFB6F60318DBE /* QuartzCore.framework */; };
+		7E5A805CA14EAAE0C6FF309348F9BA0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1772FBE9E80A6BCD5B6CCDC7C8AECF8 /* Foundation.framework */; };
+		91EF0DA260CB2DD509C862177034D83F /* SCSiriWaveformView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF08C2AF518124AD637388C4CB6F97C8 /* SCSiriWaveformView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1976EDBDDC97A96B6082ECCF5E6FBB2 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFB201A6F50F4114AD545672F2E9EA9 /* Filter.swift */; };
+		B8041366CC30D2021557545FE46BE456 /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34860C7485446516597900C97590BA3 /* SBPlatformDestination.swift */; };
+		B942C1768740681EE6969E17227DAD08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1772FBE9E80A6BCD5B6CCDC7C8AECF8 /* Foundation.framework */; };
+		BB016BEE5E0DFF59179C3CA0F972E0F0 /* SCSiriWaveformView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E690D6430B1CE846D59E6940CE0B5D /* SCSiriWaveformView-dummy.m */; };
+		BF5B6EA37323E89BBAFE83DDC4DC75D2 /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6223D95D93E53BE01B839FF05B32AE42 /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF6959020108C2BB11998DDF6F14C2A1 /* Pods-Alvin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F8376CE84A09CCAB46FBDE8055B545 /* Pods-Alvin-dummy.m */; };
+		BFD21338FDA7D1A760A702A98E7F49B8 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE82A6734D8504ADED07192B4D58277 /* FileDestination.swift */; };
 		C33EF58FD32B4481A20D2923E7FD06A3 /* Pods-AlvinUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC4DB73487B9290F287A73A5A489DB0 /* Pods-AlvinUITests-dummy.m */; };
-		CD0581415A08E2A3C60580B91F547FAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6204F8C8B17AB73D7B4E9B3AAB45F43B /* UIKit.framework */; };
-		D6E2EEB18F8A505AADA21D652DD1A5CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EC8BC868D1C3CA71056359C78A0B62 /* AVFoundation.framework */; };
+		CEAAA16FB8D15B4C299181EFB5E9DD20 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A3717369AA9EF6F9C1D0BA39E84 /* ConsoleDestination.swift */; };
+		EA7E574A49DF733ABBDA9B66514EE237 /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41993F1A81A0764A71F53DAB174969AD /* SwiftyBeaver-dummy.m */; };
 		F20B21BCDC0458C0ADD0162CA3CB9588 /* Pods-AlvinTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 492C08EF99FB1DCB94CFB407DDF95BE0 /* Pods-AlvinTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFD23C20D5FF53A25256A5377287A1BD /* Pods-Alvin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F530B65C4A6F155D3867B8F476E53AD /* Pods-Alvin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D20EFF3400F7415110F69349F3B856B9 /* PBXContainerItemProxy */ = {
+		5658568C973E4AF7B7A5A2D512268698 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A1B49393F87DD2772CD85EA7DFE91642;
+			remoteGlobalIDString = C003C0698B82CB1E1FD1C496E8BC95AF;
+			remoteInfo = SwiftyBeaver;
+		};
+		7DF368EDFECA0184B3245F895E5A1CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08580594BF29A3A6F15AD73B0E2750C;
 			remoteInfo = SCSiriWaveformView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048CFF15D3732D55B34AA0B9DBF8A0FC /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
 		05EFA254AAF14849F37DD68A6439B370 /* Pods-Alvin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alvin-frameworks.sh"; sourceTree = "<group>"; };
+		0A590858A1B2D11CF8EB2F2FE9E79AB5 /* SCSiriWaveformView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCSiriWaveformView-prefix.pch"; sourceTree = "<group>"; };
+		0CCD0D132DDFC4C5B111BCCCBB3160A4 /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
+		0D56EE0940A372B2EB8E3F9E45736FED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE286EAAA0F462E2653552D242BC39B /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
+		1296EAD148D70CF75A10D40D01BBD001 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DD753C1C321B38E068978E3E32C71CD /* Pods-Alvin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alvin-resources.sh"; sourceTree = "<group>"; };
-		2954C3343D17319D5BFE06D5F2CC0D73 /* SCSiriWaveformView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCSiriWaveformView.h; path = SCSiriWaveformView/SCSiriWaveformView.h; sourceTree = "<group>"; };
+		22A1D7D3B00AD44BC96C5D32C91DAA03 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
+		2CB673012B92AD26EFCAC02A79229377 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
 		2EB0E65286248DDB55D1B1458D0E7337 /* Pods-AlvinUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlvinUITests-resources.sh"; sourceTree = "<group>"; };
 		325B2E5BFFBCF63F63043CBDD3E3CA1E /* Pods-Alvin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alvin.debug.xcconfig"; sourceTree = "<group>"; };
-		339FB5CE679A19A35B4102DA801AFFE5 /* SCSiriWaveformView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCSiriWaveformView-dummy.m"; sourceTree = "<group>"; };
 		34F8376CE84A09CCAB46FBDE8055B545 /* Pods-Alvin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alvin-dummy.m"; sourceTree = "<group>"; };
+		384F113F84DD6ED48823F48B2A555A54 /* Pods_AlvinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlvinUITests.framework; path = "Pods-AlvinUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E50AC6DE7F2BE45B2C0112B0B5593D2 /* Pods-AlvinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlvinUITests.release.xcconfig"; sourceTree = "<group>"; };
-		407ED936A0994C0143D023713AE72B81 /* SCSiriWaveformView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCSiriWaveformView-prefix.pch"; sourceTree = "<group>"; };
 		40B6F12E8A81A2062DA513C7867907D3 /* Pods-AlvinTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlvinTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41993F1A81A0764A71F53DAB174969AD /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
 		449591E2522680108244FDDC7DBB8C48 /* Pods-Alvin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alvin-acknowledgements.plist"; sourceTree = "<group>"; };
-		456B2AEB9F774A32B983779DDA8A8F23 /* SCSiriWaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCSiriWaveformView.framework; path = SCSiriWaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		457CA40D7D5AC648C1BD9EA6F32CBA8E /* Pods-AlvinUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlvinUITests-frameworks.sh"; sourceTree = "<group>"; };
 		4601D03C37BA73BA19C06A3F894D9FF7 /* Pods-AlvinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlvinUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		492C08EF99FB1DCB94CFB407DDF95BE0 /* Pods-AlvinTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlvinTests-umbrella.h"; sourceTree = "<group>"; };
 		4C81D663F47490F7FDA64F9226B82E34 /* Pods-Alvin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alvin-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4D918360EF4F7632BA68ABC19A2DC9DE /* SCSiriWaveformView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCSiriWaveformView.xcconfig; sourceTree = "<group>"; };
+		4E66A0C86CDD4F3403F6950822D598E0 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF6F8410600222A3F8BE9C087F18E4D /* Pods_AlvinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlvinTests.framework; path = "Pods-AlvinTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFB201A6F50F4114AD545672F2E9EA9 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		548ED26F896839257962D851FB4D72A8 /* SCSiriWaveformView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCSiriWaveformView.m; path = SCSiriWaveformView/SCSiriWaveformView.m; sourceTree = "<group>"; };
 		54994EADC0C551842AB2B866820E3E63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		57F662374FCD173AB9DC788F5ABACB51 /* Pods-AlvinUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlvinUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5ED76B9D99868F442D3D2EE96459021E /* Pods-AlvinUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AlvinUITests.modulemap"; sourceTree = "<group>"; };
 		5F530B65C4A6F155D3867B8F476E53AD /* Pods-Alvin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alvin-umbrella.h"; sourceTree = "<group>"; };
 		601A7212FFDF4BCA3D895CE31FA3E9DB /* Pods-AlvinTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlvinTests-resources.sh"; sourceTree = "<group>"; };
 		6204F8C8B17AB73D7B4E9B3AAB45F43B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6223D95D93E53BE01B839FF05B32AE42 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
 		680864FED3B75DACD41475793AA88CD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68EEDA1259D93566CB8702BCC0A5A162 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70056E39D60530F57E3F790D2FCC068F /* SCSiriWaveformView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCSiriWaveformView.xcconfig; sourceTree = "<group>"; };
 		74CD0B7E0DE59E675C0AAC137FD88C3D /* Pods-AlvinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlvinTests.debug.xcconfig"; sourceTree = "<group>"; };
 		76395B72A06F25D80C7B8E4D1D5B341D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76F3690F19A5BC3976464BBD7D63F9D9 /* Pods-AlvinUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlvinUITests-umbrella.h"; sourceTree = "<group>"; };
-		89A6599EAC2059E6E58390897EFF319A /* SCSiriWaveformView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCSiriWaveformView.modulemap; sourceTree = "<group>"; };
-		93923005727573E8280B0A956261DE7A /* Pods_AlvinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlvinUITests.framework; path = "Pods-AlvinUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87138836D272B240FFAB82974D31BB82 /* Pods_Alvin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alvin.framework; path = "Pods-Alvin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B5010F1776114B7ABA9AF87DFA44E9 /* SCSiriWaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCSiriWaveformView.framework; path = SCSiriWaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		993BA78AA369EBDE008CD942AF396F42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD33DC4F62D14B22B7E9BF1D8111A1D /* Pods-AlvinTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AlvinTests.modulemap"; sourceTree = "<group>"; };
+		A0C5FE11E5C32DCB3073BDF26CC05F18 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
+		A34860C7485446516597900C97590BA3 /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
 		A389A3F65C4F6E1659F2D1941E8393BB /* Pods-AlvinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlvinTests.release.xcconfig"; sourceTree = "<group>"; };
 		A5EC8BC868D1C3CA71056359C78A0B62 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		AE5B49BB93181B4AD1285B4A44E44F72 /* Pods-AlvinTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlvinTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF08C2AF518124AD637388C4CB6F97C8 /* SCSiriWaveformView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCSiriWaveformView-umbrella.h"; sourceTree = "<group>"; };
 		AF9D0AF35B626926E9EEFB6F60318DBE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		B4E60C62E242F384D9D17B4551714053 /* SCSiriWaveformView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCSiriWaveformView-umbrella.h"; sourceTree = "<group>"; };
-		C3A6745CAB11117E9994E6D5755F353B /* Pods_Alvin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alvin.framework; path = "Pods-Alvin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB287F5A8216EB85F459F67D8C6EFBEA /* SCSiriWaveformView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCSiriWaveformView.m; path = SCSiriWaveformView/SCSiriWaveformView.m; sourceTree = "<group>"; };
+		B8E690D6430B1CE846D59E6940CE0B5D /* SCSiriWaveformView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCSiriWaveformView-dummy.m"; sourceTree = "<group>"; };
+		C5E85A3717369AA9EF6F9C1D0BA39E84 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
+		C7081C489B9730C4F4C1703612F2F347 /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
 		D6FD56D2F0765FBE56FBA16EE35934E3 /* Pods-AlvinTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlvinTests-frameworks.sh"; sourceTree = "<group>"; };
 		DDD796B9EEC8AB57CCB7325980C45BE3 /* Pods-Alvin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alvin.release.xcconfig"; sourceTree = "<group>"; };
 		E26D5AEB17121778E4C44FDEF686A2F5 /* Pods-AlvinUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlvinUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAE82A6734D8504ADED07192B4D58277 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
 		F1772FBE9E80A6BCD5B6CCDC7C8AECF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3DD75B3FE0D96EB84F9F0FC1B49E656 /* SCSiriWaveformView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCSiriWaveformView.h; path = SCSiriWaveformView/SCSiriWaveformView.h; sourceTree = "<group>"; };
 		F41BBC3D204EB4F99BC5952CD8332BC9 /* Pods-Alvin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alvin.modulemap"; sourceTree = "<group>"; };
-		F45DC690B8AB7751E1680A1F8047D6FC /* Pods_AlvinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlvinTests.framework; path = "Pods-AlvinTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46158B2CE4E18F10F9C98043CF5D5B9 /* SCSiriWaveformView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCSiriWaveformView.modulemap; sourceTree = "<group>"; };
 		F6B172EDEC8DB62B75E7F48AEF1EF725 /* Pods-AlvinTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlvinTests-dummy.m"; sourceTree = "<group>"; };
 		FDC4DB73487B9290F287A73A5A489DB0 /* Pods-AlvinUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlvinUITests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11CDDBBFEA56E61001D41A1F87FC9A84 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6E2EEB18F8A505AADA21D652DD1A5CC /* AVFoundation.framework in Frameworks */,
-				20CA94DEDAD17F4108A8C7386424F5AF /* CoreGraphics.framework in Frameworks */,
-				3D1EBC37767AA313C86D41EA267C433F /* Foundation.framework in Frameworks */,
-				B2CA69D88A3A595F5B76A721EF23B495 /* QuartzCore.framework in Frameworks */,
-				CD0581415A08E2A3C60580B91F547FAC /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		25DE2B58BC9321334B8AD1D762B715C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,11 +130,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		804BF50576EC6F8BE2890C254F6C3898 /* Frameworks */ = {
+		4BBD05ED5B0ED29365B28CDE752BAE59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903BD42B0E033FE8776056F9A9F95310 /* Foundation.framework in Frameworks */,
+				735F83D409FF7EDB75E7A29D7C43F621 /* AVFoundation.framework in Frameworks */,
+				2771D462970BC47252A1B0D90BF29FBC /* CoreGraphics.framework in Frameworks */,
+				B942C1768740681EE6969E17227DAD08 /* Foundation.framework in Frameworks */,
+				43227564DCF41F34FD9D4A77A3278181 /* QuartzCore.framework in Frameworks */,
+				6BF25E25ACFE2F3C4548EA2053A364D0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F3CCC61C82514B2CCEEF7B327925D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5A805CA14EAAE0C6FF309348F9BA0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0A7034F7F51263592AE18608C36647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FDA5D40286D55A36639C3D2387B5D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +169,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FF44F013C08BBD04F9D0E98D8D4EAAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D56EE0940A372B2EB8E3F9E45736FED /* Info.plist */,
+				048CFF15D3732D55B34AA0B9DBF8A0FC /* SwiftyBeaver.modulemap */,
+				0CCD0D132DDFC4C5B111BCCCBB3160A4 /* SwiftyBeaver.xcconfig */,
+				41993F1A81A0764A71F53DAB174969AD /* SwiftyBeaver-dummy.m */,
+				2CB673012B92AD26EFCAC02A79229377 /* SwiftyBeaver-prefix.pch */,
+				6223D95D93E53BE01B839FF05B32AE42 /* SwiftyBeaver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyBeaver";
+			sourceTree = "<group>";
+		};
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,10 +191,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		572F883BA0E4B4C986931B1B2944A56E /* Pods */ = {
+		35E0931EB2F9DD61DEC88500C680DE4E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFD3D71F7780AFD01D3CCA36A3E91AFF /* SCSiriWaveformView */,
+				1296EAD148D70CF75A10D40D01BBD001 /* Info.plist */,
+				F46158B2CE4E18F10F9C98043CF5D5B9 /* SCSiriWaveformView.modulemap */,
+				70056E39D60530F57E3F790D2FCC068F /* SCSiriWaveformView.xcconfig */,
+				B8E690D6430B1CE846D59E6940CE0B5D /* SCSiriWaveformView-dummy.m */,
+				0A590858A1B2D11CF8EB2F2FE9E79AB5 /* SCSiriWaveformView-prefix.pch */,
+				AF08C2AF518124AD637388C4CB6F97C8 /* SCSiriWaveformView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCSiriWaveformView";
+			sourceTree = "<group>";
+		};
+		7188E6ECA1C714E820E733483076C679 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD907B2E23E50A82AD88996E58024790 /* SCSiriWaveformView */,
+				9DE515D5A7B0597CD85A873D03B92921 /* SwiftyBeaver */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -149,8 +219,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				572F883BA0E4B4C986931B1B2944A56E /* Pods */,
-				FE541B59908430B83514B72156C01867 /* Products */,
+				7188E6ECA1C714E820E733483076C679 /* Pods */,
+				FFD97961A583188041CEBA5DE0823FA3 /* Products */,
 				89CB3EC5D666DA74C0E5CAC5DD5AD086 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -183,6 +253,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9DE515D5A7B0597CD85A873D03B92921 /* SwiftyBeaver */ = {
+			isa = PBXGroup;
+			children = (
+				C7081C489B9730C4F4C1703612F2F347 /* AES256CBC.swift */,
+				A0C5FE11E5C32DCB3073BDF26CC05F18 /* BaseDestination.swift */,
+				C5E85A3717369AA9EF6F9C1D0BA39E84 /* ConsoleDestination.swift */,
+				EAE82A6734D8504ADED07192B4D58277 /* FileDestination.swift */,
+				4FFB201A6F50F4114AD545672F2E9EA9 /* Filter.swift */,
+				0DE286EAAA0F462E2653552D242BC39B /* GoogleCloudDestination.swift */,
+				A34860C7485446516597900C97590BA3 /* SBPlatformDestination.swift */,
+				22A1D7D3B00AD44BC96C5D32C91DAA03 /* SwiftyBeaver.swift */,
+				0FF44F013C08BBD04F9D0E98D8D4EAAB /* Support Files */,
+			);
+			name = SwiftyBeaver;
+			path = SwiftyBeaver;
+			sourceTree = "<group>";
+		};
 		9E9ADB46D6B7BC1B647C96D25BE13F8C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,29 +282,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BFD3D71F7780AFD01D3CCA36A3E91AFF /* SCSiriWaveformView */ = {
+		AD907B2E23E50A82AD88996E58024790 /* SCSiriWaveformView */ = {
 			isa = PBXGroup;
 			children = (
-				2954C3343D17319D5BFE06D5F2CC0D73 /* SCSiriWaveformView.h */,
-				CB287F5A8216EB85F459F67D8C6EFBEA /* SCSiriWaveformView.m */,
-				D31777D4B9AE3000934F30F9E55B24E1 /* Support Files */,
+				F3DD75B3FE0D96EB84F9F0FC1B49E656 /* SCSiriWaveformView.h */,
+				548ED26F896839257962D851FB4D72A8 /* SCSiriWaveformView.m */,
+				35E0931EB2F9DD61DEC88500C680DE4E /* Support Files */,
 			);
 			name = SCSiriWaveformView;
 			path = SCSiriWaveformView;
-			sourceTree = "<group>";
-		};
-		D31777D4B9AE3000934F30F9E55B24E1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				68EEDA1259D93566CB8702BCC0A5A162 /* Info.plist */,
-				89A6599EAC2059E6E58390897EFF319A /* SCSiriWaveformView.modulemap */,
-				4D918360EF4F7632BA68ABC19A2DC9DE /* SCSiriWaveformView.xcconfig */,
-				339FB5CE679A19A35B4102DA801AFFE5 /* SCSiriWaveformView-dummy.m */,
-				407ED936A0994C0143D023713AE72B81 /* SCSiriWaveformView-prefix.pch */,
-				B4E60C62E242F384D9D17B4551714053 /* SCSiriWaveformView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SCSiriWaveformView";
 			sourceTree = "<group>";
 		};
 		E8B24F7FE3988A4630723063A756D323 /* Pods-AlvinTests */ = {
@@ -238,17 +311,6 @@
 			path = "Target Support Files/Pods-AlvinTests";
 			sourceTree = "<group>";
 		};
-		FE541B59908430B83514B72156C01867 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C3A6745CAB11117E9994E6D5755F353B /* Pods_Alvin.framework */,
-				F45DC690B8AB7751E1680A1F8047D6FC /* Pods_AlvinTests.framework */,
-				93923005727573E8280B0A956261DE7A /* Pods_AlvinUITests.framework */,
-				456B2AEB9F774A32B983779DDA8A8F23 /* SCSiriWaveformView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		FEABFAB75A27937BBC23AA0FC359F85B /* Pods-Alvin */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +327,18 @@
 			);
 			name = "Pods-Alvin";
 			path = "Target Support Files/Pods-Alvin";
+			sourceTree = "<group>";
+		};
+		FFD97961A583188041CEBA5DE0823FA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87138836D272B240FFAB82974D31BB82 /* Pods_Alvin.framework */,
+				4FF6F8410600222A3F8BE9C087F18E4D /* Pods_AlvinTests.framework */,
+				384F113F84DD6ED48823F48B2A555A54 /* Pods_AlvinUITests.framework */,
+				88B5010F1776114B7ABA9AF87DFA44E9 /* SCSiriWaveformView.framework */,
+				4E66A0C86CDD4F3403F6950822D598E0 /* SwiftyBeaver.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,26 +360,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F7CF6A50EE14F53ECEA9731D6439881 /* Headers */ = {
+		5B2D89AD7E872C18BEA538C66764C842 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263A47C63256C67B86DC9D751C5E0F41 /* SCSiriWaveformView-umbrella.h in Headers */,
-				01627261E92CE9391B3AAC5FCAEB8DC1 /* SCSiriWaveformView.h in Headers */,
+				BF5B6EA37323E89BBAFE83DDC4DC75D2 /* SwiftyBeaver-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C622C4B52D5FEB2D02AB6DE16FBA8F9A /* Headers */ = {
+		DBBA563ED9C58ECE261288F9C762CC2E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD23C20D5FF53A25256A5377287A1BD /* Pods-Alvin-umbrella.h in Headers */,
+				91EF0DA260CB2DD509C862177034D83F /* SCSiriWaveformView-umbrella.h in Headers */,
+				5FBED47F1AF3F7137E6542854FDC14C5 /* SCSiriWaveformView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49C53438DDF55DA30A621E439E1E24C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A62287063CC908211D3D1DDD084ECA7 /* Pods-Alvin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0330D40B363CBB398E6EE5C016EC4FF1 /* Pods-Alvin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB85C197A1FA7E21C11C627C7676D3C /* Build configuration list for PBXNativeTarget "Pods-Alvin" */;
+			buildPhases = (
+				3CF69FEE8C79422E6D575EF51E431905 /* Sources */,
+				69F3CCC61C82514B2CCEEF7B327925D4 /* Frameworks */,
+				F49C53438DDF55DA30A621E439E1E24C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA14607B30493B5389F4FCEB1A92402C /* PBXTargetDependency */,
+				76929399759425ED2362F3A1584B8849 /* PBXTargetDependency */,
+			);
+			name = "Pods-Alvin";
+			productName = "Pods-Alvin";
+			productReference = 87138836D272B240FFAB82974D31BB82 /* Pods_Alvin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		643A0F17D0BA8F7E7F52A6E9088B7CD2 /* Pods-AlvinUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD353029407322C52001FB17759AA26A /* Build configuration list for PBXNativeTarget "Pods-AlvinUITests" */;
@@ -320,7 +421,7 @@
 			);
 			name = "Pods-AlvinUITests";
 			productName = "Pods-AlvinUITests";
-			productReference = 93923005727573E8280B0A956261DE7A /* Pods_AlvinUITests.framework */;
+			productReference = 384F113F84DD6ED48823F48B2A555A54 /* Pods_AlvinUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		95BCF5ED1E9828C595B1EBD53D70AE9F /* Pods-AlvinTests */ = {
@@ -337,34 +438,33 @@
 			);
 			name = "Pods-AlvinTests";
 			productName = "Pods-AlvinTests";
-			productReference = F45DC690B8AB7751E1680A1F8047D6FC /* Pods_AlvinTests.framework */;
+			productReference = 4FF6F8410600222A3F8BE9C087F18E4D /* Pods_AlvinTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A05554F6E88AE6C116E41570081AA6E5 /* Pods-Alvin */ = {
+		C003C0698B82CB1E1FD1C496E8BC95AF /* SwiftyBeaver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB1110F21066684133F5C8427D007B1C /* Build configuration list for PBXNativeTarget "Pods-Alvin" */;
+			buildConfigurationList = 20780DF829BFAB68E8B46AAD11166116 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
 			buildPhases = (
-				38ED7ADAA36AD453F069436A7F367D5F /* Sources */,
-				804BF50576EC6F8BE2890C254F6C3898 /* Frameworks */,
-				C622C4B52D5FEB2D02AB6DE16FBA8F9A /* Headers */,
+				739E0B63CACE05E24C85D68DD77A9BC7 /* Sources */,
+				BF0A7034F7F51263592AE18608C36647 /* Frameworks */,
+				5B2D89AD7E872C18BEA538C66764C842 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B843382EEA02C2B3A3A32FC74B5549F /* PBXTargetDependency */,
 			);
-			name = "Pods-Alvin";
-			productName = "Pods-Alvin";
-			productReference = C3A6745CAB11117E9994E6D5755F353B /* Pods_Alvin.framework */;
+			name = SwiftyBeaver;
+			productName = SwiftyBeaver;
+			productReference = 4E66A0C86CDD4F3403F6950822D598E0 /* SwiftyBeaver.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A1B49393F87DD2772CD85EA7DFE91642 /* SCSiriWaveformView */ = {
+		F08580594BF29A3A6F15AD73B0E2750C /* SCSiriWaveformView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 948071899252BF64CD5A345B15C95B35 /* Build configuration list for PBXNativeTarget "SCSiriWaveformView" */;
+			buildConfigurationList = 76A6DAF130956FB396403281D87E0FD2 /* Build configuration list for PBXNativeTarget "SCSiriWaveformView" */;
 			buildPhases = (
-				28454CB2B7FB86D74226F1826D6F26AA /* Sources */,
-				11CDDBBFEA56E61001D41A1F87FC9A84 /* Frameworks */,
-				8F7CF6A50EE14F53ECEA9731D6439881 /* Headers */,
+				F959C2CB74157CC5B14A943F87C0B71A /* Sources */,
+				4BBD05ED5B0ED29365B28CDE752BAE59 /* Frameworks */,
+				DBBA563ED9C58ECE261288F9C762CC2E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -372,7 +472,7 @@
 			);
 			name = SCSiriWaveformView;
 			productName = SCSiriWaveformView;
-			productReference = 456B2AEB9F774A32B983779DDA8A8F23 /* SCSiriWaveformView.framework */;
+			productReference = 88B5010F1776114B7ABA9AF87DFA44E9 /* SCSiriWaveformView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -392,28 +492,20 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FE541B59908430B83514B72156C01867 /* Products */;
+			productRefGroup = FFD97961A583188041CEBA5DE0823FA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A05554F6E88AE6C116E41570081AA6E5 /* Pods-Alvin */,
+				0330D40B363CBB398E6EE5C016EC4FF1 /* Pods-Alvin */,
 				95BCF5ED1E9828C595B1EBD53D70AE9F /* Pods-AlvinTests */,
 				643A0F17D0BA8F7E7F52A6E9088B7CD2 /* Pods-AlvinUITests */,
-				A1B49393F87DD2772CD85EA7DFE91642 /* SCSiriWaveformView */,
+				F08580594BF29A3A6F15AD73B0E2750C /* SCSiriWaveformView */,
+				C003C0698B82CB1E1FD1C496E8BC95AF /* SwiftyBeaver */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28454CB2B7FB86D74226F1826D6F26AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3966909856D8224A94D4D1EEA802BE15 /* SCSiriWaveformView-dummy.m in Sources */,
-				79173F155B434FB0C85397CA2C9A8391 /* SCSiriWaveformView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2DE74C1EDF9E171F701B770CF16F0498 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,11 +514,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38ED7ADAA36AD453F069436A7F367D5F /* Sources */ = {
+		3CF69FEE8C79422E6D575EF51E431905 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				604FB6E7B383B7C033257A8C83F15C43 /* Pods-Alvin-dummy.m in Sources */,
+				BF6959020108C2BB11998DDF6F14C2A1 /* Pods-Alvin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739E0B63CACE05E24C85D68DD77A9BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC474B59CF8161C33B9FB6555C4C2D5 /* AES256CBC.swift in Sources */,
+				6D40125607B783FC7C8CD8EDE7FAF2A2 /* BaseDestination.swift in Sources */,
+				CEAAA16FB8D15B4C299181EFB5E9DD20 /* ConsoleDestination.swift in Sources */,
+				BFD21338FDA7D1A760A702A98E7F49B8 /* FileDestination.swift in Sources */,
+				B1976EDBDDC97A96B6082ECCF5E6FBB2 /* Filter.swift in Sources */,
+				1192B13634F45B4E6D9C6D6C776539A9 /* GoogleCloudDestination.swift in Sources */,
+				B8041366CC30D2021557545FE46BE456 /* SBPlatformDestination.swift in Sources */,
+				EA7E574A49DF733ABBDA9B66514EE237 /* SwiftyBeaver-dummy.m in Sources */,
+				6127A44380790BB52BE569858AA4AB4E /* SwiftyBeaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,14 +546,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F959C2CB74157CC5B14A943F87C0B71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB016BEE5E0DFF59179C3CA0F972E0F0 /* SCSiriWaveformView-dummy.m in Sources */,
+				25C45B120D75B81CD93C63EFB9B795DD /* SCSiriWaveformView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B843382EEA02C2B3A3A32FC74B5549F /* PBXTargetDependency */ = {
+		76929399759425ED2362F3A1584B8849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = C003C0698B82CB1E1FD1C496E8BC95AF /* SwiftyBeaver */;
+			targetProxy = 5658568C973E4AF7B7A5A2D512268698 /* PBXContainerItemProxy */;
+		};
+		FA14607B30493B5389F4FCEB1A92402C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SCSiriWaveformView;
-			target = A1B49393F87DD2772CD85EA7DFE91642 /* SCSiriWaveformView */;
-			targetProxy = D20EFF3400F7415110F69349F3B856B9 /* PBXContainerItemProxy */;
+			target = F08580594BF29A3A6F15AD73B0E2750C /* SCSiriWaveformView */;
+			targetProxy = 7DF368EDFECA0184B3245F895E5A1CEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -490,9 +613,9 @@
 			};
 			name = Release;
 		};
-		3A58EA9CF4797725B8B8224200FE4F65 /* Release */ = {
+		25BF8E2AAB78E6463DA586887F54359F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D918360EF4F7632BA68ABC19A2DC9DE /* SCSiriWaveformView.xcconfig */;
+			baseConfigurationReference = 0CCD0D132DDFC4C5B111BCCCBB3160A4 /* SwiftyBeaver.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -505,14 +628,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SCSiriWaveformView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SCSiriWaveformView;
+				PRODUCT_NAME = SwiftyBeaver;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -522,7 +645,7 @@
 			};
 			name = Release;
 		};
-		50E6138C23729AE9D876DD307C570C4A /* Release */ = {
+		27A868AFD985CFE64BCE483BE1A555F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDD796B9EEC8AB57CCB7325980C45BE3 /* Pods-Alvin.release.xcconfig */;
 			buildSettings = {
@@ -556,6 +679,103 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		62820A6CD35FE91B184176F95DA2D4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70056E39D60530F57E3F790D2FCC068F /* SCSiriWaveformView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCSiriWaveformView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCSiriWaveformView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7428743B31CDA3B35A97BF9731F2E730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCD0D132DDFC4C5B111BCCCBB3160A4 /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9840317DB0BA9C46110B90B788B52055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70056E39D60530F57E3F790D2FCC068F /* SCSiriWaveformView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCSiriWaveformView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCSiriWaveformView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9AC33B80C8C0C8051CEEBBBC77A3062B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -592,7 +812,7 @@
 			};
 			name = Release;
 		};
-		9B83CBCBDFA8E3E94AF06C8BF4969C62 /* Debug */ = {
+		BB86772D4C41991A20A4E77A1DB9CBCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 325B2E5BFFBCF63F63043CBDD3E3CA1E /* Pods-Alvin.debug.xcconfig */;
 			buildSettings = {
@@ -621,6 +841,7 @@
 				PRODUCT_NAME = Pods_Alvin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -668,38 +889,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		C444E2C469CF7CD0533FC6DD68C9AFA9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D918360EF4F7632BA68ABC19A2DC9DE /* SCSiriWaveformView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SCSiriWaveformView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SCSiriWaveformView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -820,6 +1009,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		20780DF829BFAB68E8B46AAD11166116 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7428743B31CDA3B35A97BF9731F2E730 /* Debug */,
+				25BF8E2AAB78E6463DA586887F54359F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -829,20 +1027,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		948071899252BF64CD5A345B15C95B35 /* Build configuration list for PBXNativeTarget "SCSiriWaveformView" */ = {
+		5AB85C197A1FA7E21C11C627C7676D3C /* Build configuration list for PBXNativeTarget "Pods-Alvin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C444E2C469CF7CD0533FC6DD68C9AFA9 /* Debug */,
-				3A58EA9CF4797725B8B8224200FE4F65 /* Release */,
+				BB86772D4C41991A20A4E77A1DB9CBCB /* Debug */,
+				27A868AFD985CFE64BCE483BE1A555F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB1110F21066684133F5C8427D007B1C /* Build configuration list for PBXNativeTarget "Pods-Alvin" */ = {
+		76A6DAF130956FB396403281D87E0FD2 /* Build configuration list for PBXNativeTarget "SCSiriWaveformView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B83CBCBDFA8E3E94AF06C8BF4969C62 /* Debug */,
-				50E6138C23729AE9D876DD307C570C4A /* Release */,
+				9840317DB0BA9C46110B90B788B52055 /* Debug */,
+				62820A6CD35FE91B184176F95DA2D4C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

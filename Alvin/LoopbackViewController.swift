@@ -37,11 +37,7 @@ class LoopbackViewController: UIViewController, AVAudioPlayerDelegate
         self.displayLink = CADisplayLink(target: self, selector: #selector(updateRecorderMeters))
         self.displayLink?.add(to: RunLoop.current, forMode: RunLoopMode.commonModes)
     }
-    
-    @IBAction func onFolderButtonTouch(_ sender: Any) {
-        print("folder touch")
-    }
-    
+        
     @IBAction func onRecordButtonTouch(_ sender: Any) {
         let button: UIButton = sender as! UIButton
         let isRecording: Bool = Loopback.shared.isRecording
@@ -63,11 +59,11 @@ class LoopbackViewController: UIViewController, AVAudioPlayerDelegate
         let isLoopbacking: Bool = Loopback.shared.isLoopbacking
         
         if isLoopbacking == true {
-            button.setImage(UIImage(named: "MicroOnIcon"), for: .normal)
+            button.setImage(UIImage(named: "LoopIcon"), for: .normal)
             Loopback.shared.stopLoopback()
         }
         else {
-            button.setImage(UIImage(named: "MicroOffIcon"), for: .normal)
+            button.setImage(UIImage(named: "StopIcon"), for: .normal)
             Loopback.shared.startLoopback()
         }
         

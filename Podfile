@@ -7,6 +7,7 @@ target 'Alvin' do
 
   # Pods for Alvin
   pod 'SCSiriWaveformView'
+  pod 'SwiftyBeaver'
 
   target 'AlvinTests' do
     inherit! :search_paths

@@ -1,12 +1,15 @@
 PODS:
   - SCSiriWaveformView (1.1.0)
+  - SwiftyBeaver (1.2.2)
 
 DEPENDENCIES:
   - SCSiriWaveformView
+  - SwiftyBeaver
 
 SPEC CHECKSUMS:
   SCSiriWaveformView: fbb2be796930670698ed6705f3b48f3dd387a73f
+  SwiftyBeaver: 90a39e3dc5136b7285f2e4c870b107e3933b8b84
 
-PODFILE CHECKSUM: 52c7f826ef089dbdb402261d9959aea6f0dea3aa
+PODFILE CHECKSUM: 4c0e44e0b890db88682339a57361f4adb07738fd
 
 COCOAPODS: 1.2.0
