@@ -8,9 +8,11 @@ Main grey color: #212121 rgb(33,33,33)
 - [x] Screen rotation (upside down) 
 - [x] Always stay awake
 - [x] Splashscreen
-- [ ] App Icon
+- [x] App Icon
 - [x] Have unique names for files
 - [x] File Upload
-- [ ] HUD for file upload progress
+- [x] Translate back to french
+- [x] Real test with MIC and HP
+- [x] HUD for file upload progress
 - [x] Possibility to replay a song
 - [ ] Tweak recording settings for better quality (apple lossless ALAC)

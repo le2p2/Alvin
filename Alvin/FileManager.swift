@@ -9,6 +9,7 @@
 import Foundation
 import AVFoundation
 import Alamofire
+import PKHUD
 
 class FileManager
 {
@@ -40,6 +41,8 @@ class FileManager
         
         log.info("upload file with name \(name) at folder \(fileFolderName)")
         
+        HUD.show(.progress)
+        
         Alamofire.upload(
             multipartFormData: { multipartFormData in
                 multipartFormData.append(fileUrl, withName: "file")
@@ -49,14 +52,10 @@ class FileManager
                 switch encodingResult {
                     case .success(let upload, _, _):
                         upload.response { response in
-                            log.info(response)
-                        }
-                        
-                        upload.uploadProgress { progress in
-                            log.debug(progress.fractionCompleted)
+                            HUD.flash(.success, delay: 1.0)
                         }
                     case .failure(let encodingError):
-                        log.error(encodingError)
+                        HUD.flash(.error, delay: 1.0)
                 }
             }
         )

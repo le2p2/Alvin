@@ -21,6 +21,9 @@ class LoopbackViewController: UIViewController, AVAudioPlayerDelegate
     var waveformView: SCSiriWaveformView? = nil
     var displayLink: CADisplayLink? = nil
     
+    override var shouldAutorotate: Bool { return true }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask { return UIInterfaceOrientationMask.all } // necessary for upside down rotation
+            
     override func viewDidLoad() {
         super.viewDidLoad()
         

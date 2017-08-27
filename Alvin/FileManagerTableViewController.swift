@@ -11,6 +11,9 @@ import UIKit
 class FileManagerTableViewController: UITableViewController
 {
     var files: Array<FileManagerTableViewCellModel> = []
+    
+    override var shouldAutorotate: Bool { return true }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask { return UIInterfaceOrientationMask.all } // necessary
 
     override func viewDidLoad() {
         super.viewDidLoad()

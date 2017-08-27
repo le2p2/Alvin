@@ -9,6 +9,7 @@ target 'Alvin' do
   pod 'SCSiriWaveformView'
   pod 'SwiftyBeaver'
   pod 'Alamofire', '~> 4.4'
+  pod 'PKHUD', '~> 4.0'
 
   target 'AlvinTests' do
     inherit! :search_paths

@@ -1,18 +1,21 @@
 PODS:
   - Alamofire (4.4.0)
+  - PKHUD (4.2.1)
   - SCSiriWaveformView (1.1.0)
   - SwiftyBeaver (1.2.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
+  - PKHUD (~> 4.0)
   - SCSiriWaveformView
   - SwiftyBeaver
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  PKHUD: 957ce2a68b3c97a51839b30216120c1dbc0c3a78
   SCSiriWaveformView: fbb2be796930670698ed6705f3b48f3dd387a73f
   SwiftyBeaver: 90a39e3dc5136b7285f2e4c870b107e3933b8b84
 
-PODFILE CHECKSUM: 0ae145c30150dce1f1ce4aae36829908b8fc50db
+PODFILE CHECKSUM: e92561e635ea1bf6392b81439debf4173256fc3d
 
 COCOAPODS: 1.2.0
