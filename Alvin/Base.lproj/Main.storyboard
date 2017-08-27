@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aty-pC-3j4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aty-pC-3j4">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -51,7 +51,6 @@
                             <color key="tintColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstItem="FvO-5A-Oyn" firstAttribute="trailing" secondItem="vZF-SI-1I6" secondAttribute="trailing" id="7Tg-b4-x4T"/>
-                                <constraint firstItem="FGM-so-zvD" firstAttribute="bottom" secondItem="vZF-SI-1I6" secondAttribute="bottom" id="8tq-Q0-aZu"/>
                                 <constraint firstItem="FvO-5A-Oyn" firstAttribute="leading" secondItem="vZF-SI-1I6" secondAttribute="leading" id="NcF-mN-kh6"/>
                                 <constraint firstItem="FGM-so-zvD" firstAttribute="trailing" secondItem="vZF-SI-1I6" secondAttribute="trailing" constant="-15" id="S3H-SX-6RL"/>
                                 <constraint firstItem="FvO-5A-Oyn" firstAttribute="bottom" secondItem="vZF-SI-1I6" secondAttribute="bottom" id="SQ5-cv-LUN"/>
@@ -60,30 +59,37 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FileManagerTableViewCell" id="D3l-WW-11B" customClass="FileManagerTableViewCell" customModule="Alvin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FileManagerTableViewCell" rowHeight="44" id="D3l-WW-11B" customClass="FileManagerTableViewCell" customModule="Alvin" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="98" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D3l-WW-11B" id="6NC-Z6-wsY">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42I-06-B9k">
-                                            <rect key="frame" x="8" y="8" width="304" height="27.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42I-06-B9k" userLabel="File Label">
+                                            <rect key="frame" x="38" y="8" width="274" height="27.5"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idx-2f-e50" userLabel="Play Button">
+                                            <rect key="frame" x="0.0" y="4" width="36" height="36"/>
+                                            <state key="normal" image="PlayIcon"/>
+                                        </button>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="42I-06-B9k" firstAttribute="leading" secondItem="6NC-Z6-wsY" secondAttribute="leadingMargin" id="2QD-xX-Wu5"/>
+                                        <constraint firstItem="42I-06-B9k" firstAttribute="leading" secondItem="6NC-Z6-wsY" secondAttribute="leadingMargin" constant="30" id="2QD-xX-Wu5"/>
+                                        <constraint firstItem="idx-2f-e50" firstAttribute="top" secondItem="6NC-Z6-wsY" secondAttribute="top" constant="4" id="Rxw-AY-HQe"/>
                                         <constraint firstItem="42I-06-B9k" firstAttribute="top" secondItem="6NC-Z6-wsY" secondAttribute="topMargin" id="Ysd-G9-QZl"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="42I-06-B9k" secondAttribute="bottom" id="kVS-pk-pjy"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="42I-06-B9k" secondAttribute="trailing" id="st9-Cv-42a"/>
+                                        <constraint firstItem="42I-06-B9k" firstAttribute="bottom" secondItem="6NC-Z6-wsY" secondAttribute="bottomMargin" id="kVS-pk-pjy"/>
+                                        <constraint firstItem="42I-06-B9k" firstAttribute="trailing" secondItem="6NC-Z6-wsY" secondAttribute="trailingMargin" id="st9-Cv-42a"/>
+                                        <constraint firstItem="idx-2f-e50" firstAttribute="leading" secondItem="6NC-Z6-wsY" secondAttribute="leading" id="xt8-ZW-hYx"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="label" destination="42I-06-B9k" id="XQC-wG-237"/>
+                                    <outlet property="playButton" destination="idx-2f-e50" id="uqg-XH-aBu"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -158,7 +164,6 @@
                                                 <color key="backgroundColor" red="0.12939286231994629" green="0.12942266464233398" blue="0.12939092516899109" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" image="FolderIcon"/>
                                                 <connections>
-                                                    <action selector="onFolderButtonTouch:" destination="aty-pC-3j4" eventType="touchUpInside" id="vDH-Fo-pcd"/>
                                                     <segue destination="7oI-BA-zzr" kind="presentation" id="ELn-Cm-NfV"/>
                                                 </connections>
                                             </button>
@@ -268,5 +273,6 @@
         <image name="FolderIcon" width="48" height="48"/>
         <image name="LoopIcon" width="48" height="48"/>
         <image name="MicroOnIcon" width="48" height="48"/>
+        <image name="PlayIcon" width="36" height="36"/>
     </resources>
 </document>

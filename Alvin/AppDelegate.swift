@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         log.addDestination(ConsoleDestination())
         
+        UIApplication.shared.isIdleTimerDisabled = true
+        
         return true
     }
 

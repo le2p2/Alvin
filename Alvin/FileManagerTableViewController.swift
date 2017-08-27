@@ -16,6 +16,10 @@ class FileManagerTableViewController: UITableViewController
         super.viewDidLoad()
         self.files = FileManager.shared.listFiles()
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        FileManager.shared.stopFile()
+    }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -49,8 +53,6 @@ class FileManagerTableViewController: UITableViewController
     }
     
     override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-        // supercedes -tableView:titleForDeleteConfirmationButtonForRowAtIndexPath: if return value is non-nil
-    
         let uploadRowAction = UITableViewRowAction(style: UITableViewRowActionStyle.normal, title: "Upload", handler: { action, indexpath in
             FileManager.shared.uploadFile(name: self.files[indexPath.row].name)
             
@@ -66,6 +68,32 @@ class FileManagerTableViewController: UITableViewController
         });
         
         return [deleteRowAction, uploadRowAction];
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let fileName: String = self.files[indexPath.row].name
+        let currentCell = tableView.cellForRow(at: indexPath) as! FileManagerTableViewCell
+        let visibleCells = tableView.visibleCells as! Array<FileManagerTableViewCell>
+        
+        // Reset all cells
+        for cell in visibleCells {
+            if cell == currentCell {
+                if cell.isPlaying == true {
+                    cell.playButton.setImage(UIImage(named: "PlayIcon"), for: .normal)
+                    FileManager.shared.stopFile()
+                }
+                else {
+                    cell.playButton.setImage(UIImage(named: "PauseIcon"), for: .normal)
+                    FileManager.shared.playFile(name: fileName)
+                }
+        
+                cell.isPlaying = !cell.isPlaying
+            }
+            else {
+                cell.playButton.setImage(UIImage(named: "PlayIcon"), for: .normal)
+                cell.isPlaying = false
+            }
+        }
     }
 
     @IBAction func onCloseButtonTouch(_ sender: Any) {

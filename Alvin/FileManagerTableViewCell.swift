@@ -12,4 +12,7 @@ import UIKit
 class FileManagerTableViewCell: UITableViewCell
 {
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var playButton: UIButton!
+    
+    var isPlaying: Bool = false
 }

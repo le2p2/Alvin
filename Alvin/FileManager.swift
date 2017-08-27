@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import AVFoundation
+import Alamofire
 
 class FileManager
 {
@@ -14,6 +16,7 @@ class FileManager
     
     var defaultFileManager: Foundation.FileManager? = nil
     var documentsDirectory: URL? = nil
+    var player: AVAudioPlayer? = nil
     
     private init() {
         self.defaultFileManager = Foundation.FileManager.default
@@ -32,7 +35,31 @@ class FileManager
     }
     
     public func uploadFile(name: String) {
-        log.info("uploadFile \(name)")
+        let fileFolderName: String = name.substring(to: name.index(name.startIndex, offsetBy: 19)) // from 0 to index 18 == current datetime
+        let fileUrl: URL = (self.documentsDirectory?.appendingPathComponent(name))!
+        
+        log.info("upload file with name \(name) at folder \(fileFolderName)")
+        
+        Alamofire.upload(
+            multipartFormData: { multipartFormData in
+                multipartFormData.append(fileUrl, withName: "file")
+            },
+            to: "http://167.114.231.178/Puzl/web/app.php/applications/Alvin/itineraries/\(fileFolderName)/sounds/new",
+            encodingCompletion: { encodingResult in
+                switch encodingResult {
+                    case .success(let upload, _, _):
+                        upload.response { response in
+                            log.info(response)
+                        }
+                        
+                        upload.uploadProgress { progress in
+                            log.debug(progress.fractionCompleted)
+                        }
+                    case .failure(let encodingError):
+                        log.error(encodingError)
+                }
+            }
+        )
     }
     
     public func listFiles() -> Array<FileManagerTableViewCellModel> {
@@ -52,5 +79,21 @@ class FileManager
             
             return []
         }
+    }
+    
+    public func playFile(name: String) {
+        let fileUrl: URL? = self.documentsDirectory?.appendingPathComponent(name)
+                
+        do {
+            self.player = try AVAudioPlayer(contentsOf: fileUrl!)
+            self.player?.play()
+        }
+        catch let error {
+            log.error(error.localizedDescription)
+        }
+    }
+    
+    public func stopFile() {
+        self.player?.stop()
     }
 }
