@@ -14,12 +14,12 @@ class Loopback: NSObject, AVAudioPlayerDelegate
     static var shared: Loopback = Loopback()
     
     let documentDirectory: URL = FileManager.shared.documentsDirectory!
-    let fileExtension: String = "caf"
+    let fileExtension: String = "wav"
     let dateFormatter: DateFormatter = DateFormatter()
     let recordingSettings = [
-        AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
-        AVSampleRateKey: 12000,
-        AVNumberOfChannelsKey: 1,
+        AVFormatIDKey: Int(kAudioFormatLinearPCM),
+        AVSampleRateKey: 44100,
+        AVNumberOfChannelsKey: 2,
         AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue
     ]
     
@@ -98,6 +98,7 @@ class Loopback: NSObject, AVAudioPlayerDelegate
             let playingUrl: URL = self.documentDirectory.appendingPathComponent(playingName)
             
             try self.recorder = AVAudioRecorder(url: recordingUrl, settings: self.recordingSettings)
+            
             self.recorder?.record()
             
             log.info("recording \(recordingName)")

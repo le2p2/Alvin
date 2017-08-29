@@ -15,4 +15,4 @@ Main grey color: #212121 rgb(33,33,33)
 - [x] Real test with MIC and HP
 - [x] HUD for file upload progress
 - [x] Possibility to replay a song
-- [ ] Tweak recording settings for better quality (apple lossless ALAC)
+- [x] Tweak recording settings for better quality (apple lossless ALAC)

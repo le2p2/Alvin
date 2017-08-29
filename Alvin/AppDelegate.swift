@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftyBeaver
+import AVFoundation
 
 let log = SwiftyBeaver.self
 
@@ -22,6 +23,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         log.addDestination(ConsoleDestination())
         
         UIApplication.shared.isIdleTimerDisabled = true
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord, with: [.allowBluetoothA2DP, .allowBluetooth, .defaultToSpeaker])
+            try AVAudioSession.sharedInstance().setActive(true)
+        }
+        catch let error {
+            log.error(error.localizedDescription)
+        }
         
         return true
     }

@@ -54,7 +54,7 @@ class FileManager
                         upload.response { response in
                             HUD.flash(.success, delay: 1.0)
                         }
-                    case .failure(let encodingError):
+                    case .failure( _):
                         HUD.flash(.error, delay: 1.0)
                 }
             }
