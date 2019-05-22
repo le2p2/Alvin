@@ -6,10 +6,10 @@ target 'Alvin' do
   use_frameworks!
 
   # Pods for Alvin
-  pod 'SCSiriWaveformView'
-  pod 'SwiftyBeaver'
-  pod 'Alamofire', '~> 4.4'
-  pod 'PKHUD', '~> 4.0'
+  pod 'SCSiriWaveformView', '~> 1.1.1'
+  pod 'SwiftyBeaver', '~> 1.7.0'
+  pod 'Alamofire', '~> 4.8.2'
+  pod 'PKHUD', '~> 5.0'
 
   target 'AlvinTests' do
     inherit! :search_paths

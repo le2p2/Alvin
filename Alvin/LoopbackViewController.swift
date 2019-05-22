@@ -73,7 +73,7 @@ class LoopbackViewController: UIViewController, AVAudioPlayerDelegate
         Loopback.shared.isLoopbacking = !isLoopbacking
     }
     
-    public func updateRecorderMeters() {
+    @objc public func updateRecorderMeters() {
         Loopback.shared.updateMeters()
         
         self.waveformView?.update(withLevel: Loopback.shared.getAveragePower())
