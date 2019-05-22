@@ -16,3 +16,5 @@ Main grey color: #212121 rgb(33,33,33)
 - [x] HUD for file upload progress
 - [x] Possibility to replay a song
 - [x] Tweak recording settings for better quality (apple lossless ALAC)
+- [ ] Fix upload feature
+- [ ] "Pause" Feature, stop button on folder, pause button on loopback button

@@ -49,12 +49,23 @@ class FileManager
             },
             to: "http://167.114.231.178/Puzl/web/app.php/applications/Alvin/itineraries/\(fileFolderName)/sounds/new",
             encodingCompletion: { encodingResult in
+                log.debug(encodingResult)
+                
                 switch encodingResult {
                     case .success(let upload, _, _):
-                        upload.response { response in
-                            HUD.flash(.success, delay: 1.0)
-                        }
-                    case .failure( _):
+                        upload
+                            .validate()
+                            .responseJSON { response in
+                                log.debug(response)
+                                
+                                switch(response.result) {
+                                case .success:
+                                    HUD.flash(.success, delay: 1.0)
+                                case .failure:
+                                    HUD.flash(.error, delay: 1.0)
+                                }
+                            }
+                    case .failure(_):
                         HUD.flash(.error, delay: 1.0)
                 }
             }
